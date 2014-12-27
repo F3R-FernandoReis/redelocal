@@ -1,3 +1,4 @@
+
 1. Criei o arquivo com o vim README
 2. git status // para verificar se o arquivo esta como Untracked files
 3. git add README  // preparar o arquivo para ser commitado

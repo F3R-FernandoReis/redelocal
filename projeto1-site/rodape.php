@@ -1,3 +1,3 @@
 <?php
-echo "Todos os direitos reservados - ".date(Y);
+echo "Todos os direitos reservados - ".date("Y");
 ?>

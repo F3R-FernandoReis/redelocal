@@ -21,7 +21,7 @@
   <div class="control-group">
    <label class="control-label" for="assunto">Assunto</label>
    <div class="controls">
-     <input type="text" id="assunto" name="assunto" placeholder="" required="">
+     <input type="text" id="assunto" name="assunto" placeholder="">
    </div>
  </div> 
 

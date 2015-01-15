@@ -29,7 +29,7 @@ switch ($_GET['arquivo']){
 	break;
    default:
 	$arquivo = 'home.php';		
-  }    
+  }
 
 require_once($arquivo);
 require_once('rodape.php'); 

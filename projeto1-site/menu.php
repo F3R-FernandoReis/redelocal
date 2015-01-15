@@ -1,6 +1,6 @@
 <div class="navbar navbar-inverse">
   <div class="navbar-inner">
-    <a class="brand" href="#">Projeto 1</a>
+    <a class="brand" href="#">Projeto Fase 2</a>
     <ul class="nav">
       <li><a href="index.php?arquivo=home.php">Home</a></li>
       <li><a href="index.php?arquivo=empresa.php">Empresa</a></li>

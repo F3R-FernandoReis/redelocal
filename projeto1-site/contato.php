@@ -1,38 +1,43 @@
-    <h1>Formulario de contato</h1>
-<form method="post">
-    <p>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome"  />
-    </p>
-    <p>
-        <label for="email">E-mail</label>
-        <input type="text" name="email" />
-    </p>
-    <p>
-        <label for="assunto">Assunto</label>
-        <input type="text" name="assunto" />
-    </p>
-    <p>
-        <label for="mensagem">Mensagem</label>
-        <textarea name="mensagem"/> </textarea>
-    </p>
-    <p>
-        <input type="submit" value="Enviar" />
-    </p>
-</form>
 
-<?php
-echo "<BR><BR><BR>";
-if($_POST['nome'] || $_POST['email'] || $_POST['assunto'] || $_POST['mensagem']){
+<form class="form-horizontal" action="#" method="POST">
 
-echo "Dados enviados com sucesso, abaixo seguem os dados que voce enviou.";
-echo "<BR><BR>";
+<fieldset>
+    <legend><h1>Formulario de Contato</h1></legend>
 
-echo " Nome: ".$_POST['nome']."<BR>";
-echo " E-mail: ".$_POST['email']."<BR>";
-echo " Assunto: ".$_POST['assunto']."<BR>";
-echo " Mensagem: ".$_POST['mensagem']."<BR>";
+  <div class="control-group">
+    <label class="control-label" for="nome">Nome</label>
+    <div class="controls">
+    <input type="text" id="nome" placeholder="Digite seu nome completo" required="">
+    </div>
+  </div>
 
+  <div class="control-group">
+    <label class="control-label" for="email">Email</label>
+    <div class="controls">
+      <input type="text" id="email" placeholder="" required="">
+    </div>
+  </div>
+  
+  <div class="control-group">
+   <label class="control-label" for="assunto">Assunto</label>
+   <div class="controls">
+     <input type="text" id="assunto" placeholder="" required="">
+   </div>
+ </div> 
 
-}
-?>
+ <div class="control-group">
+    <label class="control-label" for="mensagem">Mensagem</label>
+    <div class="controls">
+    <textarea rows="5" id="mensagem" placeholder="Digite a sua mensagem"> </textarea>   
+    </div>
+  </div>
+
+ 
+  <div class="control-group">
+    <div class="controls">
+    <button type="submit" class="btn" value="Enviar"  >Enviar</button> 
+
+    </div>
+  </div>
+</fieldset>
+</form>    

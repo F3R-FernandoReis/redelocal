@@ -1,12 +1,23 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Projeto</title>
-    <link href="css/style.css" rel="stylesheet" media="screen" />
+    <title>Projeto 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   </head>
-
   <body>
-    <?php require_once('menu.php');?>
-    <div class='geral'> <BR> <?php require_once($_GET['arquivo']);?></div>
-    <div class='rodape'><?php require_once('rodape.php'); ?> </div>
+
+<?php require_once('menu.php');?>
+<?php require_once($_GET['arquivo']);?>
+<?php require_once('rodape.php'); ?> 
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
-</html>
+</html>    
+
+
+
+

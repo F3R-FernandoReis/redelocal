@@ -1,3 +1,2 @@
-<?php
-echo "Todos os direitos reservados - ".date("Y");
-?>
+<div class='modal-footer'>Todos os direitos reservados - "<?=date("Y");?>
+

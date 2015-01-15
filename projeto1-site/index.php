@@ -9,11 +9,9 @@
   <body>
 
 <?php 
-
 require_once('menu.php');
- 
 
-switch($_GET['arquivo']){
+switch ($_GET['arquivo']){
    case 'home.php':
 	$arquivo = 'home.php';
 	break;
@@ -32,11 +30,9 @@ switch($_GET['arquivo']){
    default:
 	$arquivo = 'home.php';		
   }    
+
 require_once($arquivo);
-
-
 require_once('rodape.php'); 
-
 ?> 
 
 
